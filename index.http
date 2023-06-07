@@ -1,0 +1,21 @@
+POST http://localhost:3003/
+Content-Type: application/json
+
+{
+  "pepe":"pepa",
+  "username":"haraujo",
+  "password": "123456",
+  "firstname":"Hugo",
+  "lastname":"Araujo",
+  "email":"haraujo@netcom.com",
+  "mobilephone":"0414-4729605",
+  "attribute":"haraujo",
+	"op":":=" ,
+	"value":"araujo",
+	"groupname":"grupo1",
+  "priority":1,
+	"Pepe":"Pepa"
+}
+
+###
+GET  http://localhost:3003/page/3
