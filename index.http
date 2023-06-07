@@ -2,7 +2,6 @@ POST http://localhost:3003/
 Content-Type: application/json
 
 {
-  "pepe":"pepa",
   "username":"haraujo",
   "password": "123456",
   "firstname":"Hugo",
@@ -18,4 +17,14 @@ Content-Type: application/json
 }
 
 ###
-GET  http://localhost:3003/page/3
+GET  http://localhost:3003/page/0
+
+###
+
+PUT  http://localhost:3003/
+Content-Type: application/json
+
+{
+  "id":"14",
+  "email":"haraujo@netcom.com"
+}
