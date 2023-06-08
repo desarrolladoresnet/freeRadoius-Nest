@@ -17,14 +17,15 @@ Content-Type: application/json
 }
 
 ###
-GET  http://localhost:3003/radusergroup/page/0
+GET  http://localhost:3003/page/0
 
 ###
 
-PUT  http://localhost:3003/radusergroup
+PUT   http://localhost:3003/
 Content-Type: application/json
 
 {
-  "username": "haraujo",
-  "priority":"5"
+  "id":32,
+  "notes": "Hola Mundo!!!",
+  "updateby": "Fran"
 }
